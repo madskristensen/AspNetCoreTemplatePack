@@ -1,0 +1,13 @@
+{
+  "author": "Mads Kristensen",
+  "classifications": [ "ASP.NET", "static" ],
+  "name": "ASP.NET Core Static Web",
+  "identity": "madsk.static.web",
+  "shortName": "staticweb",
+  "tags": {
+    "language": "HTML",
+    "type": "project"
+  },
+  "sourceName": "Static.Web",
+  "preferNameDirectory": "true"
+}

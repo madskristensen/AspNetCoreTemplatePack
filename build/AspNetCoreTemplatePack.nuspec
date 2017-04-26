@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>AspNetCore.Web.Templates</id>
+        <title>ASP.NET Core web template</title>
+        <summary>A collectoin ASP.NET Core templates.</summary>
+        <version>1.0.0</version>
+        <description>A collectoin ASP.NET Core templates</description>
+        <authors>Mads Kristensen</authors>
+        <projectUrl>https://github.com/madskristensen/AspNetCoreTemplatePack</projectUrl>
+        <tags>asp.net core .net template</tags>
+        <iconUrl>https://github.com/aspnet/LibraryInstaller/raw/master/src/LibraryInstaller.Vsix/Resources/Icon.png</iconUrl>
+    </metadata>
+
+    <files>
+        <file src="..\src\Static.Web\**\*.*" exclude="**\bin\**\*;**\obj\**\*;**\launchSettings.json" target="content\Static.Web" />
+    </files>
+</package>
