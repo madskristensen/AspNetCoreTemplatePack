@@ -2,10 +2,10 @@
 <package>
     <metadata>
         <id>AspNetCore.Web.Templates</id>
-        <title>ASP.NET Core web template</title>
-        <summary>A collectoin ASP.NET Core templates.</summary>
+        <title>ASP.NET Core web templates</title>
+        <summary>A collection ASP.NET Core templates.</summary>
         <version>1.0.0</version>
-        <description>A collectoin ASP.NET Core templates</description>
+        <description>A collection ASP.NET Core templates</description>
         <authors>Mads Kristensen</authors>
         <projectUrl>https://github.com/madskristensen/AspNetCoreTemplatePack</projectUrl>
         <tags>asp.net core .net template</tags>
