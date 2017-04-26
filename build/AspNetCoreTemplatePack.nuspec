@@ -9,7 +9,7 @@
         <authors>Mads Kristensen</authors>
         <projectUrl>https://github.com/madskristensen/AspNetCoreTemplatePack</projectUrl>
         <tags>asp.net core .net template</tags>
-        <iconUrl>https://github.com/aspnet/LibraryInstaller/raw/master/src/LibraryInstaller.Vsix/Resources/Icon.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/madskristensen/AspNetCoreTemplatePack/master/src/Static.Web/.template.config/icon.json</iconUrl>
     </metadata>
 
     <files>
