@@ -5,11 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="wwwroot\" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <PackageReference Include="AspNetCore.StaticSiteHelper" Version="1.0.0" />
+        <PackageReference Include="AspNetCore.StaticSiteHelper" Version="1.0.6" />
     </ItemGroup>
 
 </Project>
