@@ -1,0 +1,14 @@
+{
+  "author": "Mads Kristensen",
+  "classifications": [ "Web", "MVC" ],
+  "name": "ASP.NET Core MVC Basic",
+  "identity": "madsk.mvc.basic",
+  "groupIdentity": "madsk.mvc.basic",
+  "shortName": "mvcbasic",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Mvc.Basic",
+  "preferNameDirectory": "true"
+}

@@ -1,8 +1,9 @@
 {
   "author": "Mads Kristensen",
-  "classifications": [ "ASP.NET", "static" ],
+  "classifications": [ "Web", "Static" ],
   "name": "ASP.NET Core Static Web",
   "identity": "madsk.static.web",
+  "groupIdentity": "madsk.static.web",
   "shortName": "staticweb",
   "tags": {
     "language": "HTML",

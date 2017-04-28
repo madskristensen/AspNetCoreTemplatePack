@@ -7,4 +7,4 @@ Contains various project templates for ASP.NET Core development.
 ## Templates
 
 - Static Website
-- MVC Start (coming soon)
+- MVC Basic

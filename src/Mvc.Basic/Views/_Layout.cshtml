@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Mvc.Basic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="@ViewData["Description"]" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+
+    <div class="wrapper">
+        <header role="banner">
+            <nav class="container">
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index">Mvc.Basic</a></li>
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="About">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <h1>@ViewData["Title"]</h1>
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <span>&copy; @DateTime.Now.Year - Mvc.Basic</span>
+        </div>
+    </footer>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

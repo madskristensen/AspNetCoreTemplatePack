@@ -13,6 +13,7 @@
     </metadata>
 
     <files>
-        <file src="..\src\Static.Web\**\*.*" exclude="**\bin\**\*;**\obj\**\*;**\launchSettings.json" target="content\Static.Web" />
+        <file src="..\src\Static.Web\**\*.*" exclude="**\bin\**\*;**\obj\**\*;**\launchSettings.json;**/*.user" target="content\Static.Web" />
+        <file src="..\src\Mvc.Basic\**\*.*" exclude="**\bin\**\*;**\obj\**\*;**\launchSettings.json;**/*.user" target="content\Mvc.Basic" />
     </files>
 </package>
