@@ -8,10 +8,15 @@ before_build:
 
 build_script:
   - .\build\build.cmd
+  - nuget restore src\TemplatePackExtension\TemplatePackExtension.csproj -Verbosity quiet
+  - msbuild src\TemplatePackExtension\TemplatePackExtension.csproj /p:configuration=Release /p:DeployExtension=false /v:m
 
 artifacts:
   - path: build\**\*.nupkg
     name: NuGet package
+
+after_test:
+  - ps: Vsix-PushArtifacts | Vsix-PublishToGallery
 
 deploy:
   - provider: NuGet

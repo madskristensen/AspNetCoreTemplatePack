@@ -2,13 +2,37 @@
   "author": "Mads Kristensen",
   "classifications": [ "Web", "Static" ],
   "name": "ASP.NET Core Static Web",
+  "defaultName": "WebApplication1",
   "identity": "madsk.static.web",
   "groupIdentity": "madsk.static.web",
   "shortName": "staticweb",
   "tags": {
-    "language": "HTML",
+    "language": "C#",
     "type": "project"
   },
   "sourceName": "Static.Web",
-  "preferNameDirectory": "true"
+  "preferNameDirectory": "true",
+  "primaryOutputs": [ { "path": "Static.Web.csproj" } ],
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "netcoreapp1.0",
+          "description": "Target netcoreapp1.0"
+        },
+        {
+          "choice": "netcoreapp1.1",
+          "description": "Target netcoreapp1.1"
+        },
+        {
+          "choice": "netcoreapp2.0",
+          "description": "Target netcoreapp2.0"
+        }
+      ],
+      "defaultValue": "netcoreapp1.1"
+    }
+  }
 }

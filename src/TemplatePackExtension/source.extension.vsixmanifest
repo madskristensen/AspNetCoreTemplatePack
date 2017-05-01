@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="89c95e98-7a41-4a62-9c10-cafdaf547e55" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
+    <DisplayName>ASP.NET Core Template Pack</DisplayName>
+    <Description xml:space="preserve">Contains various project templates for ASP.NET Core development.</Description>
+    <License>Resources\LICENSE</License>
+    <Icon>Resources\icon.png</Icon>
+    <PreviewImage>Resources\icon.png</PreviewImage>
+    <Tags>asp.net core, template</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="template.pkgdef" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Web" Version="[15.0.26430,16.0)" DisplayName="ASP.NET and web development tools" />
+  </Prerequisites>
+</PackageManifest>

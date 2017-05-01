@@ -1,0 +1,13 @@
+{
+  "name": {
+    "text": "MVC Basic"
+  },
+  "description": {
+    "text": "whatever"
+  },
+  "order": 1000,
+  "icon": "icon.png",
+  "learnMoreLink": "url",
+  "uiFilters": [ "oneaspnet" ],
+  "supportsDocker": true
+}
