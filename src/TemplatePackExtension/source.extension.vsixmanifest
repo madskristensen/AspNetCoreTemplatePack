@@ -2,8 +2,9 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="89c95e98-7a41-4a62-9c10-cafdaf547e55" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
-    <DisplayName>ASP.NET Core Template Pack</DisplayName>
-    <Description xml:space="preserve">Contains various project templates for ASP.NET Core development.</Description>
+    <DisplayName>ASP.NET Core Template Pack 2017.3</DisplayName>
+    <Description xml:space="preserve">Contains various project templates for ASP.NET Core development. Requires Visual Studio 2017.3</Description>
+    <MoreInfo>https://github.com/madskristensen/AspNetCoreTemplatePack/</MoreInfo>
     <License>Resources\LICENSE</License>
     <Icon>Resources\icon.png</Icon>
     <PreviewImage>Resources\icon.png</PreviewImage>
