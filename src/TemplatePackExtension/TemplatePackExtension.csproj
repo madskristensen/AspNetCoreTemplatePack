@@ -44,7 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\build\AspNetCore.Web.Templates.1.0.0.nupkg">
+    <Content Include="..\..\build\*.nupkg">
       <Link>AspNetCore.Web.Templates.nupkg</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
