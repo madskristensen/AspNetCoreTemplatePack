@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>AspNetCore.Web.Templates</id>
+        <id>MadsKristensen.AspNetCore.Web.Templates</id>
         <title>ASP.NET Core web templates</title>
         <summary>A collection ASP.NET Core templates.</summary>
         <version>1.0.0</version>
