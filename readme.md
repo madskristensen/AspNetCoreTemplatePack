@@ -5,9 +5,16 @@
 Contains various project templates for ASP.NET Core development.
 
 ## Install
+
+### Command line
 In the console, execute the following command:
 
 `dotnet new -i "AspNetCore.Web.Templates::*"`
+
+### Visual Studio 2017.3
+The extension adds the project template to the ASP.NET New Project dialog:
+
+![New Project Dialog](art/new-project-dialog.png)
 
 ## Templates
 
