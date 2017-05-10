@@ -12,6 +12,8 @@
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0,16.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[15.0,16.0)" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
@@ -21,6 +23,6 @@
   </Assets>
   <Prerequisites>
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
-    <Prerequisite Id="Microsoft.VisualStudio.Component.Web" Version="[15.0.26427,16.0)" DisplayName="ASP.NET and web development tools" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Web" Version="[15.0,16.0)" DisplayName="ASP.NET and web development tools" />
   </Prerequisites>
 </PackageManifest>
