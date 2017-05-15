@@ -5,7 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AspNetCore.StaticSiteHelper" Version="1.0.7" />
+        <PackageReference Include="AspNetCore.StaticSiteHelper" Version="1.0.9" />
     </ItemGroup>
 
 </Project>

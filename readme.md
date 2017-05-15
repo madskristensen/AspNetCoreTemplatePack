@@ -23,6 +23,9 @@ Uses the ASP.NET Core project system to provide the latest features in Visual St
 
 ![Static Web Screenshot](art/static-web-screenshot.png)
 
+## Custom MimeType mappings
+See the [Static Site Helper repo](https://github.com/madskristensen/AspNetCore.StaticSiteHelper) for how to serve custom file extensions at development time through ASP.NET Core.
+
 #### Use
 
 `dotnet new staticweb -n myapp`
