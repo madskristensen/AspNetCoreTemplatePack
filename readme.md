@@ -9,7 +9,7 @@ Contains various project templates for ASP.NET Core development.
 ### Command line
 In the console, execute the following command:
 
-> dotnet new -i "MadsKristensen.AspNetCore.Web.Templates::\*
+> dotnet new -i "MadsKristensen.AspNetCore.Web.Templates::\*"
 
 ### Visual Studio 2017.3
 The extension adds the project template to the ASP.NET New Project dialog:
@@ -40,7 +40,7 @@ This template makes it super easy to get started with building an ASP.NET Core M
 > dotnet new mvcbasic -n myapp
 
 ### MVC Fast
-This template is a variation of the "MVC Basic" template, but with added features for creating high performance web applications.
+This template is a variation of the *MVC Basic* template, but with added features for creating high performance web applications.
 
 **Features**:
 
