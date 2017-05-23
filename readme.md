@@ -9,7 +9,9 @@ Contains various project templates for ASP.NET Core development.
 ### Command line
 In the console, execute the following command:
 
-`dotnet new -i "AspNetCore.Web.Templates::*"`
+```
+dotnet new -i "AspNetCore.Web.Templates::*"
+```
 
 ### Visual Studio 2017.3
 The extension adds the project template to the ASP.NET New Project dialog:
@@ -28,7 +30,9 @@ See the [Static Site Helper repo](https://github.com/madskristensen/AspNetCore.S
 
 #### Use
 
-`dotnet new staticweb -n myapp`
+```
+dotnet new staticweb -n myapp
+```
 
 ### MVC Basic
 This template makes it super easy to get started with building an ASP.NET Core MVC application. It doesn't have any dependencies on Bower, npm, BundlerMinifier, Bootstrap, jQuery or anything else. It's the perfect starting point for developers that know their ASP.NET Core.
@@ -37,7 +41,9 @@ This template makes it super easy to get started with building an ASP.NET Core M
 
 #### Use
 
-`dotnet new mvcbasic -n myapp`
+```
+dotnet new mvcbasic -n myapp
+```
 
 ### MVC Fast
 This template is a variation of the "MVC Basic" template, but with added features for creating high performance web applications.
@@ -62,4 +68,7 @@ As well as 100/100 points on [PageSpeed Insights](https://developers.google.com/
 
 #### Use
 
-`dotnet new mvcfast -n myapp`
+```
+dotnet new mvcfast -n myapp
+npm install
+```
