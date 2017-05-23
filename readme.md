@@ -69,6 +69,5 @@ As well as 100/100 points on [PageSpeed Insights](https://developers.google.com/
 #### Use
 
 ```
-dotnet new mvcfast -n myapp
-npm install
+dotnet new mvcfast -n myapp && npm install
 ```
