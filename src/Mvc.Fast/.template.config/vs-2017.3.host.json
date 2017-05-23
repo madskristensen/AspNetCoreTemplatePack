@@ -1,0 +1,13 @@
+{
+  "name": {
+    "text": "MVC Fast"
+  },
+  "description": {
+    "text": "An ASP.NET Core template built with high performance best-practices"
+  },
+  "order": 1000,
+  "icon": "icon.png",
+  "learnMoreLink": "url",
+  "uiFilters": [ "oneaspnet" ],
+  "supportsDocker": true
+}

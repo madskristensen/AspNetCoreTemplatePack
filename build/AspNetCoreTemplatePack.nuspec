@@ -15,5 +15,6 @@
     <files>
         <file src="..\src\Static.Web\**\*.*" exclude="**\bin\**\*;**\obj\**\*;**\launchSettings.json;**/*.user" target="content\Static.Web" />
         <file src="..\src\Mvc.Basic\**\*.*" exclude="**\bin\**\*;**\obj\**\*;**\launchSettings.json;**/*.user" target="content\Mvc.Basic" />
+        <file src="..\src\Mvc.Fast\**\*.*" exclude="**\bin\**\*;**\obj\**\*;**\launchSettings.json;**/*.user;**\node_modules\**\*" target="content\Mvc.Fast" />
     </files>
 </package>

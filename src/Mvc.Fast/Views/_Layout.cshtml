@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Mvc.Fast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="@ViewData["Description"]" />
+    <style>@Html.Raw(System.IO.File.ReadAllText("wwwroot/css/abovethefold.css"))</style>
+    <link rel="shortcut icon" href="~/favicon.png" />
+</head>
+<body>
+
+    <div class="wrapper">
+        <header role="banner">
+            <nav class="container">
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index">Mvc.Fast</a></li>
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="About">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <h1>@ViewData["Title"]</h1>
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <span>&copy; @DateTime.Now.Year - Mvc.Fast</span>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="~/css/all.css" asp-append-version="true" lazyload="1" />
+    <script src="~/js/all.js" asp-append-version="true" async></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

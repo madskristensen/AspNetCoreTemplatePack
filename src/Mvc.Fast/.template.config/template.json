@@ -1,18 +1,18 @@
 {
   "author": "Mads Kristensen",
-  "classifications": [ "Web", "Static" ],
-  "name": "ASP.NET Core Static Web",
+  "classifications": [ "Web", "MVC" ],
+  "name": "ASP.NET Core MVC Fast",
   "defaultName": "WebApplication1",
-  "identity": "madsk.static.web",
-  "groupIdentity": "madsk.static.web",
-  "shortName": "staticweb",
+  "identity": "madsk.mvc.fast",
+  "groupIdentity": "madsk.mvc.fast",
+  "shortName": "mvcfast",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "Static.Web",
+  "sourceName": "Mvc.Fast",
   "preferNameDirectory": true,
-  "primaryOutputs": [ { "path": "Static.Web.csproj" } ],
+  "primaryOutputs": [ { "path": "Mvc.Fast.csproj" } ],
   "symbols": {
     "Framework": {
       "type": "parameter",
@@ -20,16 +20,11 @@
       "datatype": "choice",
       "choices": [
         {
-          "choice": "netcoreapp1.1",
-          "description": "Target netcoreapp1.1"
-        },
-        {
           "choice": "netcoreapp2.0",
           "description": "Target netcoreapp2.0"
         }
       ],
-      "replaces": "netcoreapp1.1",
-      "defaultValue": "netcoreapp1.1"
+      "defaultValue": "netcoreapp2.0"
     }
   }
 }
