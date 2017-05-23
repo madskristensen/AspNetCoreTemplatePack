@@ -9,7 +9,7 @@ Contains various project templates for ASP.NET Core development.
 ### Command line
 In the console, execute the following command:
 
-`dotnet new -i "AspNetCore.Web.Templates::*"`
+`dotnet new -i "MadsKristensen.AspNetCore.Web.Templates::*"`
 
 ### Visual Studio 2017.3
 The extension adds the project template to the ASP.NET New Project dialog:
