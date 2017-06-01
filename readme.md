@@ -52,7 +52,7 @@ This template is a variation of the *MVC Basic* template, but with added feature
 
 ![Mvc Fast Screenshot](art/mvc-fast-screenshot.png)
 
-The template points starts you out with the best score on [webspeedtest.org](http://webspeedtest.org).
+The template points starts you out with the best score on [webpagetest.org](http://webpagetest.org).
 
 ![Speed test](art/mvc-basic-speedtest.png)
 
