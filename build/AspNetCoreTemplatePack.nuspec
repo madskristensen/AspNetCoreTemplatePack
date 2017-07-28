@@ -3,9 +3,9 @@
     <metadata>
         <id>MadsKristensen.AspNetCore.Web.Templates</id>
         <title>ASP.NET Core web templates</title>
-        <summary>A collection ASP.NET Core templates.</summary>
+        <summary>A collection of ASP.NET Core templates.</summary>
         <version>1.0.1</version>
-        <description>A collection ASP.NET Core templates</description>
+        <description>A collection of ASP.NET Core templates.</description>
         <authors>Mads Kristensen</authors>
         <projectUrl>https://github.com/madskristensen/AspNetCoreTemplatePack</projectUrl>
         <tags>asp.net core .net template</tags>
