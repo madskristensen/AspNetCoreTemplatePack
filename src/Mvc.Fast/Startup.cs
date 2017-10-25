@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Net.Http.Headers;
 using Microsoft.AspNetCore;
-using WebMarkupMin.AspNetCore1;
+using WebMarkupMin.AspNetCore2;
 
 namespace Mvc.Fast
 {

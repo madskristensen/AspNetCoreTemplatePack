@@ -9,6 +9,7 @@ before_build:
 
 build_script:
   - .\build\build.cmd
+  - ps: .\build\download.ps1
   - nuget restore src\TemplatePackExtension\TemplatePackExtension.csproj -Verbosity quiet
   - msbuild src\TemplatePackExtension\TemplatePackExtension.csproj /p:configuration=Release /p:DeployExtension=false /v:m
 
