@@ -14,7 +14,7 @@ build_script:
   - msbuild src\TemplatePackExtension\TemplatePackExtension.csproj /p:configuration=Release /p:DeployExtension=false /v:m
 
 artifacts:
-  - path: build\**\*.nupkg
+  - path: build\MadsKristensen.AspNetCore.Web.Templates.*.nupkg
     name: NuGet package
 
 after_test:

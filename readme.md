@@ -2,7 +2,13 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/2txy5hi1ac7jima6?svg=true)](https://ci.appveyor.com/project/madskristensen/aspnetcoretemplatepack)
 
-Contains various project templates for ASP.NET Core development.
+Contains the following project templates for ASP.NET Core development:
+
+- Static website template
+- MVC Basic template
+- MVC Fast template
+- Blog application
+- Photo Gallery application
 
 ## Install
 
@@ -63,3 +69,9 @@ As well as 100/100 points on [PageSpeed Insights](https://developers.google.com/
 #### Use
 
 > dotnet new mvcfast -n myapp && npm install
+
+### Blog application
+This is the [Miniblog.Core](https://github.com/madskristensen/Miniblog.Core) application - a high performant and full featured blogging app.
+
+### Photo Gallery application
+This is the [Photo Gallery](https://github.com/madskristensen/PhotoGallery) application - A photo gallery site implemented in ASP.NET Core 2.0 Razor Pages.
