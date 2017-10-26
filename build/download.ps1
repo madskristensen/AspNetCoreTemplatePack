@@ -1,5 +1,5 @@
 $packages = @{
-"MadsKristensen.AspNetCore.Miniblog" = "1.0.0"
+"MadsKristensen.AspNetCore.Miniblog" = "1.0.1"
 "MadsKristensen.AspNetCore.PhotoGallery" = "1.0.0"
 }
 
