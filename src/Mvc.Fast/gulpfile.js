@@ -17,8 +17,8 @@ gulp.task("default", ["css:min", "js:min"]);
 gulp.task("clean", ["css:clean", "js:clean"]);
 
 gulp.task("watch", ["default"], function () {
-    gulp.watch(files.cssInput + "*.css", ["css"]);
-    gulp.watch(files.jsInput + "*.js", ["js"]);
+    gulp.watch(files.cssInput + "*.css", ["css:min"]);
+    gulp.watch(files.jsInput + "*.js", ["js:min"]);
 });
 
 // CSS
