@@ -3,7 +3,7 @@
     "text": "MVC Basic"
   },
   "description": {
-    "text": "whatever"
+    "text": "A basic ASP.NET Core MVC template with no dependency 3rd-party JavaScript and CSS frameworks"
   },
   "order": 1000,
   "icon": "icon.png",
